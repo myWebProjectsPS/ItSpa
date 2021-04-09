@@ -7,13 +7,13 @@ export const registrationService = {
     getUsers(parametr) {
         // pobiera liste wszystkich pokoi
         //console.log("json rooms  " + parametr)
-        return fetch(`http://localhost:3000/${parametr}`)
+        return fetch(`http://itspabackend.herokuapp.com/${parametr}`)
             .then(response => response.json());
     },
 
     saveUser(data) {
        
-        return fetch("http://localhost:3000/users", {
+        return fetch("http://itspabackend.herokuapp.com/users", {
             method: "post",
             headers: {
                 "Content-Type": "application/json" //lub używając powyższej opisanego Headers()

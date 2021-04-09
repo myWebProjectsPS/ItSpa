@@ -2,7 +2,7 @@ export const service = {
 
   getRooms(parametr) {
     // pobiera liste wszystkich pokoi
-    return fetch(`http://localhost:3000/${parametr}`)
+    return fetch(`http://itspabackend.herokuapp.com/${parametr}`)
       .then(response => response.json());
   },
 

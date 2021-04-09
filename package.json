@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production",
     "build:dev": "webpack --mode=development",
     "start:dev": "webpack-dev-server --mode-development",
     "server": "json-server --watch database.json"
   },
+  "heroku-run-build-script": true,
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -36,5 +38,8 @@
     "bootstrap": "^4.4.1",
     "bootstrap-sass": "^3.4.1",
     "jquery": "^3.5.0"
+  },
+  "engines": {
+    "node": "12.6.0"
   }
 }

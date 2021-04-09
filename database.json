@@ -23,6 +23,22 @@
       "email": "asd@we.jk",
       "password": "2@#Qwdddeeer###ee22jnwx7o6mc",
       "registration_date": "2020-05-28"
+    },
+    {
+      "id": 4,
+      "name": "adam",
+      "surname": "adam",
+      "email": "adam@wp.pl",
+      "password": "1234567kfzazdjl",
+      "registration_date": "2020-06-27"
+    },
+    {
+      "id": 5,
+      "name": "qwe",
+      "surname": "asd",
+      "email": "adam3@wp.pl",
+      "password": "retretretretakmf2be5z",
+      "registration_date": "2020-06-27"
     }
   ],
   "rooms": [
