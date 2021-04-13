@@ -5,7 +5,7 @@ import { checkPasswordStregth } from '../registration/passwordComplexity';
 
 export const registration = () => {
 
-  $('main').height(550)
+  $('main').height(750)
   const fragment = $(new DocumentFragment());
 
   const div = $('<div id="registration" class="col-lg-4 col-md-6 mb-4"></div>')
