@@ -51,6 +51,6 @@ export const treatments = () => {
     .append(treatments.map(treatment => { return treatment }))
   }).catch(er=>{
     return fragment
-    .append('<h2>Wystąpiły problemy z połączeniem. Prosimy spróbować później</h2>')
+    .append('<div class="mt-5 container text-danger"><h2>Wystąpiły problemy z połączeniem. Prosimy spróbować później</h2></div>')
   })
 };

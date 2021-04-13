@@ -5,7 +5,7 @@ import { checkPasswordStregth } from '../registration/passwordComplexity';
 export const login = () => {
 
     //$('main').attr('style','background-image: url("'+icon+'")') 
-    $('main').height(750)
+    $('main').height(550)
     const fragment = $(new DocumentFragment());
 
     const div = $('<div></div>')

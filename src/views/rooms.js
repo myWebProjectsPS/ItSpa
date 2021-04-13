@@ -5,6 +5,7 @@ import { registrationService } from '../registration/registration';
 import icon from "../images/rooms/pokój.png"
 
 export const rooms = () => {
+  
   const fragment = $(new DocumentFragment());
   $('main').height(1600)
   let cartCookie = new Cart
@@ -62,7 +63,7 @@ export const rooms = () => {
         .append(rooms.map(room => { return room }))
     }).catch(er => {
       return fragment
-        .append('<h2>Wystąpiły problemy z połączeniem. Prosimy spróbować później</h2>')
+        .append('<div class="mt-5 container text-danger"><h2>Wystąpiły problemy z połączeniem. Prosimy spróbować później</h2></div>')
     })
 
 };

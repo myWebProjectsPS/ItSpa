@@ -5,7 +5,7 @@ import { checkPasswordStregth } from '../registration/passwordComplexity';
 
 export const registration = () => {
 
-  $('main').height(750)
+  $('main').height(550)
   const fragment = $(new DocumentFragment());
 
   const div = $('<div id="registration" class="col-lg-4 col-md-6 mb-4"></div>')
@@ -23,7 +23,7 @@ export const registration = () => {
     <input type="email" id="inputEmail" class="form-control" placeholder="Email address" >
     
     `)
-  const input = $('<input type="password" id="inputPassword" class="form-control" placeholder="Password">')
+  const input = $('<input type="password" id="inputPassword" class="form-control" placeholder="Password" >')
   const progress = $('<progress id="passwordComplexity" value="0"></progress>')
 
   const button = $('<button id="btnReg" class="btn btn-lg btn-primary btn-block" type="submit">Wyślij</button>')
