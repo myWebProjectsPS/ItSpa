@@ -4,7 +4,7 @@ import homeImg from "../images/home.jpg"
 
 export const home = () => {
   const fragment = $(new DocumentFragment());
-  $('main').height('auto')
+  $('main').height(750)
   const div=$('<div></div>')
   const h2=$('<h2 class="fontColor">IT SPA</h2>')
   const divFlex=$('<div class="divFlex"></div>')
