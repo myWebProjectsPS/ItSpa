@@ -13,7 +13,7 @@ module.exports = {
     },
     devServer: {
         contentBase: path.join(__dirname, "dist"),
-        port: 9000,
+        port: 8000,
         watchContentBase: true
     },
     plugins: [
