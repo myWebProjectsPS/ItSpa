@@ -40,9 +40,9 @@ Koszyk musi przetrwa przeładowanie strony(Cookies).
 ## Technologie
 
 - HTML, Bootstrap
-- CSS, Sass, LESS
+- CSS, Sass, 
 - JavaScript, jQuery
-- Node, Express
+- Node
 
 ECMAScript 6.
 
